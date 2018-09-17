@@ -7,7 +7,8 @@
     "serve": "live-server public/",
     "build": "webpack --watch",
     "build:prod": "webpack -p --env production",
-    "start": "webpack-dev-server",
+    "dev-server": "webpack-dev-server",
+    "start": "node server.js",
     "test": "jest --config jest.config.json"
   },
   "author": "",
@@ -24,6 +25,8 @@
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-16": "^1.0.0",
     "enzyme-to-json": "^3.0.1",
+    "express": "^4.15.4",
+    "extract-text-webpack-plugin": "^3.0.0",
     "jest": "^23.6.0",
     "live-server": "^1.2.0",
     "moment": "^2.18.1",
