@@ -9,6 +9,7 @@
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
     "start": "node server.js",
+    "heroku-postbuild": "npm run-script build:prod",
     "test": "jest --config jest.config.json"
   },
   "author": "",
